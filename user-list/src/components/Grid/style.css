@@ -1,0 +1,62 @@
+table {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 5px;
+    max-width: 1120px;
+    margin: 20px auto;
+    word-break: break-all;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+thead {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+thead tr {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding-bottom: 0.4rem;
+}
+
+thead tr th {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tbody {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+tbody tr {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+tbody tr td {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
